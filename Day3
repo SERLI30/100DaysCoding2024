@@ -4,5 +4,7 @@ package Day3;
 public class Day3 {
     public static void main(String[] args) {
         System.out.println("haii,nama saya serli");
+        System.out.println("umur saya 18 tahun");
+        System.out.println("saya berasal dari pasangkayu");
     }
 }
