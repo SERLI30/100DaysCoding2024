@@ -1,0 +1,22 @@
+
+package Day4;
+
+public class Day4 {
+    public static void main(String[] args) {
+        System.out.print("haiii,");
+        System.out.print(" ");
+        System.out.print("selamat sore");
+        System.out.println("");
+    
+        String nama="Serli";
+        int usia= 18; 
+        String asal = "pasangkayu";
+        System.out.printf("nama:%s \n",nama);
+        System.out.printf("umur:%d \n",usia);
+        System.out.printf("asal:%s \n",asal);
+        
+        System.out.printf("Hai,nama saya %s,saya berusia %d tahun dan saya berasal dari %s \n",nama,usia,asal);
+        
+    }
+    
+}
