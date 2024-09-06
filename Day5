@@ -6,13 +6,13 @@ public class Day5 {
         //println menambahkan karakter baris baru ke output
         System.out.println("haiii");
     
-        /*sedangkan print tidak menambahkan karakter baris baru ke output*/
+        //sedangkan print tidak menambahkan karakter baris baru ke output
         System.out.print("selamat sore ");
         System.out.print("\n");
         
-        /**dan fungsi dari printf ialah  membantu menyederhanakan tugas mencetak output yang diformat ke konsol, jendela terminal, atau berkas log berikut beberapa pemformatan
+        /*dan fungsi dari printf ialah  membantu menyederhanakan tugas mencetak output yang diformat ke konsol, jendela terminal, atau berkas log berikut beberapa pemformatan
          bebrapa tipe data Untuk Pemformatan Angka sendiri ada Integer, Long, dan sebagainya.Penentu format yang digunakan adalah %d.sedangkan Untuk Pemformatan Angka Desimal format %f.
-         * lalu untuk Pemformatan Boolean dapat dilakukan menggunakan %b .untuk Pemformatan Karakter yang digunakan adalah %c.Dan untuk Pemformatan String format yang digunakan %s.*/
+         lalu untuk Pemformatan Boolean dapat dilakukan menggunakan %b .untuk Pemformatan Karakter yang digunakan adalah %c.Dan untuk Pemformatan String format yang digunakan %s.*/
         String nama="Serli";
         int usia= 18; 
         String asal = "pasangkayu";
