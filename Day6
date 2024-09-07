@@ -1,0 +1,28 @@
+package Day6;
+
+public class Day6 {
+
+    public static void main(String[] args) {
+//        DEKLARASI VARIABEL
+        int a;
+        double b;
+        short c;
+        char d;
+        boolean e;
+
+        //MEMBERI NILAI VARIABEL
+        a = 10;
+        b = 56.0;
+        c = 56;
+        d = 'S';
+        e = true;
+
+        //MENAMPILKAN OUTPUT/HASIL
+        System.out.println("hasil a:" + a);
+        System.out.println("hasil b:" + b);
+        System.out.println("hasil c:" + c);
+        System.out.println("hasil d:" + d);
+        System.out.println("hasil e:" + e);
+    }
+
+}
