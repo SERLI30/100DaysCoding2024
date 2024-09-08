@@ -1,0 +1,23 @@
+package Day7Memberinilaivariabel;
+
+public class Day7Memberinilaivariabel {
+
+    public static void main(String[] args) {
+//        DEKLARASI VARIABEL
+        double a;
+        int b;
+        short c;
+        char d;
+        byte e;
+
+        //MEMBERI NILAI PADA VARIABEL
+        a = 56.0;
+        b = 20;
+        c = 36;
+        d = 'L';
+        e = 28;
+        
+//       
+    }
+
+}
