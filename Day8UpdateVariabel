@@ -1,0 +1,24 @@
+package Day7Memberinilaivariabel;
+
+public class Day7Memberinilaivariabel {
+
+    public static void main(String[] args) {
+
+        //MEMBERI NILAI PADA VARIABEL
+        String a = "yulia";
+        a = "serli";
+        int b = 20;
+        b = 28;
+        byte c = 28;
+        c = 7;
+        int d = 5;
+        d = 6;
+
+        System.out.println("hasil a:" + a);
+        System.out.println("hasil b:" + b);
+        System.out.println("hasil c:" + c);
+        System.out.println("hasil c:" + d);
+
+    }
+
+}
