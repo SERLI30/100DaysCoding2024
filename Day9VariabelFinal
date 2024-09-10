@@ -1,0 +1,13 @@
+package Day9VariabelFinal;
+
+public class Day9VariabelFinal {
+
+    public static void main(String[] args) {
+        final String nama = "Serli";
+        final String tempatlahir = "Kalukunangka";
+       
+        System.out.println("Nama: " + nama);
+        System.out.println("Tempat Lahir: " + tempatlahir);
+
+    }
+}
