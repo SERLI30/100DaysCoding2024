@@ -1,0 +1,22 @@
+
+package Day11Short;
+
+public class Day11Short {
+    public static void main(String[] args) {
+        short positif = 3000;
+        short negatif = -3000;
+        short positif1 = 300;
+        short negatif1 = -500;
+        short positif2 = 200;
+        short negatif2 = -4000;
+        short positif3 = 100;
+        short negatif3 = -2500;
+        short positif4 = 3400;
+        short negatif4 = -4500;
+        short positif5 = 900;
+        
+        System.out.println("Nilai Positif: "+"\n"+positif+"\n"+positif1+"\n"+positif2+"\n"+positif3+"\n"+positif4+"\n"+positif5);
+        System.out.println("Nilai Negatif: "+"\n"+negatif+"\n"+negatif1+"\n"+negatif2+"\n"+negatif3+"\n"+negatif4);
+        
+    }
+}
