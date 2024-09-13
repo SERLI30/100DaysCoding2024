@@ -1,0 +1,37 @@
+
+package Day12;
+
+public class Day12 {
+    public static void main(String[] args) {
+//        Deklarasi variabel
+        int singa;
+        int lumbalumba;
+        int elang;
+        int ular;
+        int kucing;
+        int jerapah;
+        
+//        inisialisasi variabel
+        singa=7;
+        lumbalumba=5;
+        elang=9;
+        ular=1;
+        kucing=3;
+        jerapah=27;
+        System.out.printf("Bilangan Ganjil=%d,%d,%d,%d,%d,%d \n",singa,lumbalumba,elang,ular,kucing,jerapah);
+        
+//        inisialisasi variabel
+        int kelinci =8;
+        int zebra=10;
+        int panda=4;
+        int buaya=100;
+        System.out.println("Bilangan Genap="+kelinci+","+zebra+","+panda+","+buaya);
+        
+//        inisialisasi variabel
+        int  badak =13;
+        int koala=23;
+        int kuda=5;
+        int serigala=11;
+        System.out.printf("Bilangan Prima=%d,%d,%d,%d \n",badak,koala,kuda,serigala);
+    }
+}
