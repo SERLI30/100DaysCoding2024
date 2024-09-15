@@ -1,37 +1,26 @@
 
-package Day12;
+package Day14long;
 
-public class Day12 {
+public class Day14long {
     public static void main(String[] args) {
-//        Deklarasi variabel
-        int singa;
-        int lumbalumba;
-        int elang;
-        int ular;
-        int kucing;
-        int jerapah;
         
-//        inisialisasi variabel
-        singa=7;
-        lumbalumba=5;
-        elang=9;
-        ular=1;
-        kucing=3;
-        jerapah=27;
-        System.out.printf("Bilangan Ganjil=%d,%d,%d,%d,%d,%d \n",singa,lumbalumba,elang,ular,kucing,jerapah);
-        
-//        inisialisasi variabel
-        int kelinci =8;
-        int zebra=10;
-        int panda=4;
-        int buaya=100;
-        System.out.println("Bilangan Genap="+kelinci+","+zebra+","+panda+","+buaya);
-        
-//        inisialisasi variabel
-        int  badak =13;
-        int koala=23;
-        int kuda=5;
-        int serigala=11;
-        System.out.printf("Bilangan Prima=%d,%d,%d,%d \n",badak,koala,kuda,serigala);
+        long satu,dua,tiga,empat,lima,enam,tujuh,delapan,sembilan,sepuluh;
+        satu=123;
+        dua=57;
+        tiga=209;
+        empat=342;
+        lima=88;
+        enam=176;
+        tujuh=45;
+        delapan=298;
+        sembilan=66;
+        sepuluh=155;
+        System.out.printf("angka satu=%d, angka dua=%d, angka tiga=%d, angka empat=%d, angka lima=%d, \n",satu,dua,tiga,empat,lima);
+        System.out.printf("angka enam=%d, angka tujuh=%d, angka delapan=%d, angka sembilan=%d, angka sepuluh=%d \n",enam,tujuh,delapan,sembilan,sepuluh);
+        long sebelas =431;
+        long duabelas=278;
+        long tigabelas=91;
+        long empatbelas=314;
+        System.out.println("angka sebelas="+sebelas+", angka duabelas="+duabelas+", angka tigabelas="+tigabelas+", angka empatbelas="+empatbelas);
     }
 }
