@@ -1,0 +1,49 @@
+
+package Day15;
+
+public class Day15 {
+    public static void main(String[] args) {
+        double a,b,c,d,e;
+        a=0.1234567;
+        b=1.2345678;
+        c=2.3456789;
+        d=3.4567890;
+        e=4.1235578;
+        System.out.printf("a=%.1f\nb=%.2f\nc=%.3f\nd=%.4f\ne=%.5f\n",a,b,c,d,e);
+        
+        System.out.println("------------");
+        double f = 1.365393284653;
+        double g = 2.365393284654;
+        double h = 3.365003204651;
+        double i = 6.368363282653;
+        double j = 0.360003284650;
+        double k = 7.365390000653;
+        double l = 5.365399809839;
+        double m = 1.365332840000;
+        double n = 1.367487294653;
+        System.out.println("f="+String.format("%.7f",f));
+        System.out.println("g="+String.format("%.7f",g));
+        System.out.println("h="+String.format("%.7f",h));
+        System.out.println("i="+String.format("%.7f",i));
+        System.out.println("j="+String.format("%.7f",j));
+        System.out.println("k="+String.format("%.7f",k));
+        System.out.println("l="+String.format("%.7f",l));
+        System.out.println("m="+String.format("%.7f",m));
+        System.out.println("n="+String.format("%.7f",n));
+        
+        System.out.println("-----------");
+        double pi=22.0/7.0;
+        System.out.println("pi1="+String.format("%.2f",pi));
+        System.out.println("pi2="+String.format("%.3f",pi));
+        System.out.println("pi3="+String.format("%.4f",pi));
+        System.out.println("pi4="+String.format("%.5f",pi));
+        System.out.println("pi5="+String.format("%.6f",pi));
+        System.out.println("pi6="+String.format("%.7f",pi));
+        System.out.println("pi7="+String.format("%.8f",pi));
+        System.out.println("pi8="+String.format("%.9f",pi));
+        System.out.println("pi9="+String.format("%.10f",pi));
+        System.out.println("pi10="+String.format("%.11f",pi));
+
+        
+    }
+}
