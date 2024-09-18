@@ -1,0 +1,39 @@
+package Days17;
+
+public class Days17 {
+
+    public static void main(String[] args) {
+        //deklarasi variabel
+        char a;
+        char b;
+        char c;
+        char d;
+        char e;
+//        inisialisasi variabel
+        a = 's';
+        b = 'e';
+        c = 'r';
+        d = 'l';
+        e = 'i';
+        System.out.println("Sebelum diupdate:");
+        //mencetak
+        System.out.println(a + " " + b + " " + c + " " + d + " " + e);
+        a = 'l';
+        b = 'u';
+        c = 'w';
+        d = 'e';
+        e = 'e';
+        System.out.println("Setelah diupdate:");
+//        mencetak
+        System.out.printf("%c %c %c %c %c \n", a, b, c, d, e);
+        char f = a;
+        a = c;
+        c = e;
+        e = b;
+        b = d;
+        d = f;
+        System.out.println("setelah ditukar:");
+        //mencetak
+        System.out.print(a + " " + b + " " + c + " " + d + " " + e+"\n");
+    }
+}
