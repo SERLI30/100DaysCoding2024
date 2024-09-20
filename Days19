@@ -1,0 +1,39 @@
+package Days19;
+
+public class Days19 {
+
+    public static void main(String[] args) {
+        // Deklarasi dan inisialisasi string
+        String a = "heii";
+        String b = "haloo";
+        //menampilkan nilai a dan b
+        System.out.println(a + "," + b);
+        //membuat refernce c ke b
+        String c = b;
+        //mengubah nilai dari b
+        c = "haii";
+        //menampilkan nilai c
+        System.out.println(c);
+        // Deklarasi dan inisialisasi string
+        String f = "namaku";
+        String g = "serli";
+        String h = "nama";
+        String i = "panggilanku";
+        String j = "selly";
+        String k = "umurku";
+        String l = "18 tahun";
+        //menampilkan nilai f,g,h,i,i,j,k,l
+        System.out.printf("%s %s %s %s %s %s %s", f, g, h, i, j, k, l);
+        //membuat refernce m ke l
+        String m = l;
+//        inisialisasi string
+        String n = "hehe";
+        //mengubah nilai dari m
+        m = "eh 19 tahun dehh,";
+        System.out.print("\n");
+        //menampilkan nilai j dan k
+        System.out.print(m + " " + n);
+        System.out.println("");
+
+    }
+}
