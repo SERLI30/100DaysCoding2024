@@ -1,0 +1,33 @@
+package Days20;
+
+public class Days20 {
+
+    public static void main(String[] args) {
+        Byte ali = 20;
+        Byte budi = 15;
+        Byte cici = 18;
+        Byte dedi = 22;
+        Byte evi = 17;
+        System.out.printf("ali:%d, budi:%d, cici:%d, dedi:%d, evi:%d \n", ali, budi, cici, dedi, evi);
+
+        Byte a = ali;
+        ali = budi;
+        budi = a;
+        a = cici;
+        cici = dedi;
+        dedi = a;
+        System.out.println("Setelah pertukaran:");
+        System.out.println("ali:" + ali + " " + "budi:" + budi + " " + "cici:" + cici + " " + "dedi:" + dedi);
+
+        System.out.println("sesudah penambahan:");
+        System.out.print("ali:");
+        System.out.println(ali + 5);
+        System.out.print("budi:");
+        System.out.println(budi + 3);
+        System.out.print("cici:");
+        System.out.println(cici + 2);
+        System.out.print("dedi:");
+        System.out.println(dedi + 4);
+
+    }
+}
