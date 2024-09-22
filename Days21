@@ -1,0 +1,41 @@
+package Days21Short;
+
+public class Days21Short {
+
+    public static void main(String[] args) {
+        Short a = 20;
+        Short b = 25;
+        Short c = 22;
+        Short d = 54;
+        Short e = 78;
+        Short f = 24;
+        System.out.println("Sebelu menukar nilai");
+        System.out.println("a:" + a);
+        System.out.println("b:" + b);
+        System.out.println("c:" + c);
+        System.out.println("d:" + d);
+        System.out.println("e:" + e);
+        System.out.println("f:" + f);
+
+        System.out.println("Setelah menukar nilai");
+        Short g = a;
+        a = d;
+        d = b;
+        b = e;
+        e = c;
+        c = f;
+        f = g;
+        System.out.print("a:" + a);
+        System.out.print("\n");
+        System.out.print("b:" + b);
+        System.out.print("\n");
+        System.out.print("c:" + c);
+        System.out.print("\n");
+        System.out.print("d:" + d);
+        System.out.print("\n");
+        System.out.print("e:" + e);
+        System.out.print("\n");
+        System.out.print("f:" + f);
+        System.out.print("\n");
+    }
+}
