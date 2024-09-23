@@ -1,0 +1,36 @@
+
+package Days22;
+
+public class Days22 {
+    public static void main(String[] args) {
+        Integer a=50;
+        Integer b=70;
+        Integer c=95;
+        Integer d= 40;
+        Integer e=35;
+//       sebelum penambahan
+        System.out.print("a:"+a+"\n"+"b:"+b+"\n"+"c:"+c+"\n"+"d:"+d+"\n"+"e:"+e+"\n");
+        System.out.println("Setelah penambahan");
+        System.out.print("a:");
+        System.out.println(a+10);
+        System.out.print("b:");
+        System.out.println(b+11);
+        System.out.print("c:");
+        System.out.println(c+5);
+        System.out.print("d:");
+        System.out.println(d+10);
+        System.out.print("e:");
+        System.out.println(e+15);
+        System.out.println("setelah pengurangan");
+        System.out.print("a:");
+        System.out.println(a-15);
+        System.out.print("b:");
+        System.out.println(b-18);
+        System.out.print("c:");
+        System.out.println(c-45);
+        System.out.print("d:");
+        System.out.println(d-16);
+        System.out.print("e:");
+        System.out.println(e-13);
+    }
+}
