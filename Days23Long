@@ -1,0 +1,45 @@
+
+package Days23Long;
+
+public class Days23Long {
+    public static void main(String[] args) {
+//        deklarasi variabel
+        Long a;
+        Long b;
+        Long c;
+//        inisialisasi variabel
+       a=12434L;
+       b=24343L;
+       c=89578L;
+        
+        System.out.println("a:"+a);
+        System.out.println("b:"+b);
+        System.out.println("c:"+c);
+        
+        a=23453456L;
+        b=2456656L;
+        c=2345688L;
+        System.out.println("setelah mengupdate:");
+        System.out.println("a:"+a);
+        System.out.println("b:"+b);
+        System.out.println("c:"+c);
+        
+        System.out.println("setelah mengalikan:");
+        System.out.printf("a: %d \n",a*513);
+        System.out.printf("b: %d \n",b*21142);
+        System.out.printf("c: %d \n",c*42425);
+        
+        System.out.println("setelah dikurang:");
+        System.out.print("a:");
+        System.out.println(a-457868);
+        System.out.print("b:");
+        System.out.println(b-4598768);
+        System.out.print("c:");
+        System.out.println(b-45786698);
+        
+        System.out.println("setelah dibagi:");
+        System.out.println("a:"+(a/345));
+        System.out.println("b:"+(b/33));
+        System.out.println("c:"+(c/56));
+    }
+}
