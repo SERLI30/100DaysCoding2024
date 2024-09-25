@@ -1,0 +1,43 @@
+package Days24Float;
+
+public class Days24Float {
+
+    public static void main(String[] args) {
+        Float a;
+        Float b;
+        Float c;
+        Float d;
+        Float e;
+        Float f;
+
+        a = 23.1f;
+        b = 24.6f;
+        c = 89.23f;
+        d = 67.3f;
+        e = 567.2f;
+        f = 5327f;
+        
+        System.out.println("sebelum perkalian:");
+        System.out.print("a:" + a + "\n");
+        System.out.print("b:" + b + "\n");
+        System.out.print("c:" + c + "\n");
+        System.out.print("d:" + d + "\n");
+        System.out.print("e:" + e + "\n");
+        System.out.print("f" + f + "\n");
+
+        System.out.println("setelah perkalian:");
+        System.out.print("a:");
+        System.out.println(a * 10);
+        System.out.print("b:");
+        System.out.println(b * 18);
+        System.out.print("c:");
+        System.out.println(c * 89);
+        System.out.print("d:");
+        System.out.println(d * 24);
+        System.out.print("e:");
+        System.out.println(e * 98);
+        System.out.print("f:");
+        System.out.println(e * 456);
+
+    }
+}
