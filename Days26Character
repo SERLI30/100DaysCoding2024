@@ -1,0 +1,47 @@
+package Days26Character;
+
+public class Days26Character {
+
+    public static void main(String[] args) {
+        //Deklarasi Variabel
+        Character nama;
+        Character namaa;
+        Character namaaa;
+        Character namaaaa;
+        Character namaaaaa;
+
+        //Inisialisai 
+        nama = 's';
+        namaa = 'e';
+        namaaa = 'r';
+        namaaaa = 'l';
+        namaaaaa = 'i';
+
+        System.out.println("Sebelum diUpdate");
+        System.out.printf("%c %c %c %c %c \n", nama, namaa, namaaa, namaaaa, namaaaaa);
+        //mengupdate 
+        nama = 's';
+        namaa = 'e';
+        namaaa = 'l';
+        namaaaa = 'l';
+        namaaaaa = 'y';
+        System.out.println("Setelah diUpdate");
+        System.out.println(nama);
+        System.out.println(namaa);
+        System.out.println(namaaa);
+        System.out.println(namaaaa);
+        System.out.println(namaaaaa+"\n");
+
+        //menginisialisasi variabel
+        Character a = 'w';
+        Character b = 'e';
+        Character c = 'e';
+        Character d = 'l';
+        Character e = 'u';
+        System.out.print(a + "");
+        System.out.print(b + "");
+        System.out.print(c + "");
+        System.out.print(d + "");
+        System.out.print(e + ""+"\n");
+    }
+}
