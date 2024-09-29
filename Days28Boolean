@@ -1,0 +1,42 @@
+package Day28Boolean;
+
+public class Day28Boolean {
+
+    public static void main(String[] args) {
+        //Deklarasi variabel
+        Boolean nama;
+        Boolean umur;
+        Boolean alamat;
+        Boolean hobi;
+        Boolean kotaditinggalidulu;
+        Boolean kotaditinggalisekarang;
+        Boolean statusPernikahan;
+        Boolean statusPendidikan;
+        Boolean alumnisekolah;
+
+        //Inisialisai variabel
+        nama = true;
+        umur = true;
+        alamat = true;
+        hobi = true;
+        alumnisekolah = true;
+        kotaditinggalidulu = true;
+        kotaditinggalisekarang = true;
+        statusPernikahan = false;
+        statusPendidikan = true;
+
+        //Tampilkan output
+        System.out.println("Biodata Pribadi:");
+        //Menampilkan Menggunakan println
+        System.out.println("Nama                        :" + (nama ? "Serli" : "nama tidak ada"));
+        System.out.println("umur                        :" + (umur ? "18tahun" : "umur tidak ada"));
+        System.out.println("alamat                      :" + (alamat ? "Pamboang" : "alamat tidak ada"));
+        System.out.println("hobi                        :" + (hobi ? "Membaca" : "hobi tidak ada"));
+        System.out.println("kota ditinggali dulu        :" + (kotaditinggalidulu ? "Pasangkayu" : "kota ditinggali dulu tidak ada"));
+        System.out.println("kota ditinggali sekarang    :" + (kotaditinggalisekarang ? "Majene" : "kota ditinggali sekarang tidak ada"));
+        System.out.println("status Pernikahan           :" + (statusPernikahan ? "belum menikah" : "status Pernikahan tidak ada"));
+        System.out.println("status Pendidikan           :" + (statusPendidikan ? "Mahasiswa" : "status Pendidikan tidak ada"));
+        System.out.println("alumni Sekolah              :" + (alumnisekolah ? "SMKN 1 Bambalamutu" : "alumni Sekolah tidak ada"));
+
+    }
+}
