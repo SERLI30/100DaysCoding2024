@@ -1,0 +1,48 @@
+package Days29BigInteger;
+
+import java.math.BigInteger;
+
+public class Days29BigInteger {
+
+    public static void main(String[] args) {
+        BigInteger a = new BigInteger("765889");
+        BigInteger b = new BigInteger("7658477");
+        BigInteger c = new BigInteger("765646");
+        BigInteger d = new BigInteger("765892");
+        BigInteger e = new BigInteger("7658548");
+        BigInteger f = new BigInteger("7655454");
+        BigInteger g = new BigInteger("7658664");
+        BigInteger h = new BigInteger("76589");
+        BigInteger i = new BigInteger("7689");
+        BigInteger j = new BigInteger("7889");
+
+        //menampilkan menggunakan print
+        System.out.print("Bilangan Pertama    : " + a + "\n");
+        System.out.print("Bilangan Kedua      : " + b + "\n");
+        System.out.print("Bilangan Ketiga     : " + c + "\n");
+        System.out.print("Bilangan Keempat    : " + d + "\n");
+        System.out.print("Bilangan Kelima     : " + e + "\n");
+
+        //menampilkan menggunakan println
+        System.out.println("Bilangan keenam     : " + f);
+        System.out.println("Bilangan ketujuh    : " + g);
+        System.out.println("Bilangan kedelapan  : " + h);
+
+        //menampilkan menggunakan printf
+        System.out.printf("Bilangan kesembilan : %s \n", i);
+        System.out.printf("Bilangan kesepuluh  : %s \n", j);
+   
+      BigInteger tukar;
+      tukar=a;
+      a=c;
+      c=b;
+      b=d;
+      d=f;
+      f=a;
+        System.out.println("Setelah Menukar variabel a,b,c,d");
+        System.out.println("a:"+a);
+        System.out.println("b:"+b);
+        System.out.println("c:"+c);
+        System.out.println("d:"+d);
+    }
+}
