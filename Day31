@@ -1,0 +1,57 @@
+package Days31;
+
+public class Days31 {
+
+    public static void main(String[] args) {
+        String angka;
+
+        //tipe data int
+        angka = "15";
+        int a = Integer.parseInt(angka);
+        System.out.print("nilai String:" + angka + "\n");
+        System.out.print("konversi String ke int:" + a + "\n");
+
+        //tipe data short
+        angka = "150";
+        short b = Short.parseShort(angka);
+        System.out.print("nilai String:" + angka + "\n");
+        System.out.print("konversi String ke short:" + b + "\n");
+
+        //tipe data double
+        angka = "134.5";
+        double c = Double.parseDouble(angka);
+        System.out.print("nilai String:" + angka + "\n");
+        System.out.print("konversi String ke double:" + c + "\n");
+
+        //tipe data long
+        angka = "243543675";
+        long d = Long.parseLong(angka);
+        System.out.print("nilai String:" + angka + "\n");
+        System.out.print("konversi String ke long:" + d + "\n");
+
+        //tipe data byte
+        angka = "20";
+        byte e = Byte.parseByte(angka);
+        System.out.print("nilai String:" + angka + "\n");
+        System.out.print("konversi String ke byte:" + e + "\n");
+
+        //tipe data float
+        angka = "25";
+        float f = Float.parseFloat(angka);
+        System.out.print("nilai String:" + angka + "\n");
+        System.out.print("konversi String ke float:" + f + "\n");
+
+        //tipe data boolean
+        angka = "false";
+        boolean g = Boolean.parseBoolean(angka);
+        System.out.print("nilai String:" + angka + "\n");
+        System.out.print("konversi String ke boolean:" + g + "\n");
+
+        //tipe data char
+        angka = "selly";
+        char h = angka.charAt(4);
+        System.out.print("nilai String:" + angka + "\n");
+        System.out.print("konversi String ke char:" + h + "\n");
+
+    }
+}
