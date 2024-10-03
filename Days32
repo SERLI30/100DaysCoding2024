@@ -1,0 +1,48 @@
+package Days32;
+
+public class Days32 {
+
+    public static void main(String[] args) {
+        int a = 15;
+        String A1 = Integer.toString(a);
+        System.out.println("nilai int:" + a);
+        System.out.println("konversi int ke string:" + A1);
+
+        byte b = 25;
+        String A2 = Byte.toString(b);
+        System.out.println("nilai byte:" + b);
+        System.out.println("konversi byte ke string:" + A2);
+
+        short c = 35;
+        String A3 = Short.toString(c);
+        System.out.println("nilai short:" + c);
+        System.out.println("konversi short ke string:" + A3);
+
+        double d = 12.1;
+        String A4 = Double.toString(d);
+        System.out.println("nilai double:" + d);
+        System.out.println("konversi double ke string:" + A4);
+
+        long e = 635611;
+        String A5 = Long.toString(e);
+        System.out.println("nilai long:" + e);
+        System.out.println("konversi long ke string:" + A5);
+
+        boolean f = true;
+        String A6 = Boolean.toString(f);
+        System.out.println("nilai boolean:" + f);
+        System.out.println("konversi boolean ke string:" + A6);
+
+        float g = 56.1f;
+        String A7 = Float.toString(g);
+        System.out.println("nilai float:" + g);
+        System.out.println("konversi float ke string:" + A7);
+
+        char h = 'l';
+        String A8 = Character.toString(h);
+        System.out.println("nilai char:" + h);
+        System.out.println("konversi char ke string:" + A8);
+
+    }
+
+}
