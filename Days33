@@ -1,0 +1,47 @@
+package Days33;
+
+public class Days33 {
+
+    public static void main(String[] args) {
+        //implicit casting
+        byte abyte = 120;
+        short bshort = abyte;
+        int cint = bshort;
+        long dlong = cint;
+        float efloat = dlong;
+        double fdouble = efloat;
+
+        char gchar = 's';
+        int charint = gchar;
+        System.out.println("Implicit Casting:");
+        System.out.println("byte:" + abyte);
+        System.out.println("short:" + bshort);
+        System.out.println("int:" + cint);
+        System.out.println("long:" + dlong);
+        System.out.println("float:" + efloat);
+        System.out.println("double:" + fdouble);
+        System.out.println("char:" + gchar);
+        System.out.println("charint:" + charint+"\n");
+
+        // Explicit casting
+        double mdouble = 100.9;
+        float mfloat = (float) mdouble;
+        long mlong = (long) mfloat;
+        int mint = (int) mlong;
+        short mshort = (short) mint;
+        byte mbyte = (byte) mshort;
+
+        int intchar = 65;
+        char mchar = (char) intchar;
+
+        System.out.println("Explicit Casting:");
+        System.out.println("double: " + mdouble);
+        System.out.println("float: " + mfloat);
+        System.out.println("long: " + mlong);
+        System.out.println("int: " + mint);
+        System.out.println("short: " + mshort);
+        System.out.println("byte: " + mbyte);
+        System.out.println("intchar:" + intchar);
+        System.out.println("char: " + mchar);
+    }
+}
