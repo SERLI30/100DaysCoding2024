@@ -1,0 +1,49 @@
+package Days34;
+
+import java.util.Scanner;
+
+public class Days34 {
+
+    public static void main(String[] args) {
+        //input dari keyboard
+        Scanner s = new Scanner(System.in);
+        //tampilkan menggunkan print
+        System.out.print("Masukkan nama: ");
+        String nama = s.nextLine();
+        
+        //untuk menginput nama menggunakan tipe data String
+        System.out.print("Masukkkan umur: ");
+        //untuk menginput umur menggunakan tipe data int
+        int umur = s.nextInt();
+        
+        System.out.print("Masukkan tinggi badan: ");
+        //untuk menginput tinggi badan  menggunakan tipe data double
+        double tb = s.nextDouble();
+        
+        System.out.print("Masukkan berat badan: ");
+        //untuk menginput berat badan menggunakan tipe data float
+        float bb = s.nextFloat();
+        
+        System.out.print("Masukkan tanggal lahir: ");
+        //untuk menginput tanggal lahir menggunakan tipe data byte
+        byte tll=s.nextByte();
+        
+         System.out.print("Masukkan bulan lahir: ");
+        //untuk menginput bulan lahir menggunakan tipe data short
+        short bl=s.nextShort();
+        
+        System.out.print("Masukkan tahun lahir: ");
+        //untuk menginput tahun lahir menggunakan tipe data long
+        long tlll=s.nextLong();
+        
+        
+        System.out.println("Data yang diinput untuk nama: "+nama);
+        System.out.println("Data yang diinput untuk umur: "+umur);
+        System.out.println("Data yang diinput untuk tinggi badan: "+tb);
+        System.out.println("Data yang diinput untuk berat badan: "+bb);
+        System.out.println("Data yang diinput untuk tanggal lahir: "+tll);
+        System.out.println("Data yang diinput untuk bulan lahir: "+bl);
+        System.out.println("Data yang diinput untuk tahun lahir: "+tlll);
+
+    }
+}
