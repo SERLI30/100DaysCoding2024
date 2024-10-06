@@ -1,0 +1,44 @@
+package Days35;
+
+public class Days35 {
+
+    public static void main(String[] args) {
+        //Deklarasi variabel
+        int a;
+        int b;
+        int c;
+        int d;
+        int e;
+        //Inisialisasai variabel
+        a = 10;
+        b = 20;
+        c = 35;
+        d = 40;
+        e = 25;
+        //penjumlahan
+        int hasil = a + b;
+        int hasila = b + e;
+        int hasilb = c + d;
+        int hasilc = d + c;
+        int hasild = e + a;
+        System.out.println("Hasil dari variabel hasil:" + hasil);
+        System.out.println("Hasil dari variabel hasil:" + hasila);
+        System.out.println("Hasil dari variabel hasil:" + hasilb);
+        System.out.println("Hasil dari variabel hasil:" + hasilc);
+        System.out.println("Hasil dari variabel hasil:" + hasild);
+        
+        //pengurangan
+        int kurang = hasil - hasila;
+        int kuranga = hasila - hasilc;
+        int kurangb = hasild - hasilb;
+        int kurangc = hasilc - hasild;
+        int kurangd = hasilb - hasilc;
+
+        System.out.println("setelah dikurang variabel kurang:" + kurang);
+        System.out.println("setelah dikurang variabel kuranga:" + kuranga);
+        System.out.println("setelah dikurang variabel kurangb:" + kurangb);
+        System.out.println("setelah dikurang variabel kurangc:" + kurangc);
+        System.out.println("Setelah dikurang variabel kurangd:" + kurangd);
+
+    }
+}
