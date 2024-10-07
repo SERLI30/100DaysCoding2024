@@ -1,0 +1,37 @@
+package Days36;
+
+import java.util.Scanner;
+
+public class Days36 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+       
+        System.out.print("Masukkan bilangan desimal: ");
+        int a = serli.nextInt();
+
+        
+        String b = "";
+        b += (a / 128) % 2;
+        b += (a / 64) % 2;
+        b += (a / 32) % 2;
+        b += (a / 16) % 2;
+        b += (a / 8) % 2;
+        b += (a / 4) % 2;
+        b += (a / 2) % 2;
+        b += a % 2;
+
+        System.out.println("Hasil konversi ke biner 8 digit: " + b);
+
+       
+        System.out.print("Masukkan bilangan kedua untuk menghitung 77%: ");
+        int c = serli.nextInt();
+
+       
+        double hasil = c * 0.77;
+        System.out.println("77% dari " + c + " adalah: " + hasil);
+
+
+    }
+}
