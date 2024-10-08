@@ -33,7 +33,7 @@ public class Days37 {
         d -= 90;
         e -= 5.1;
         f -= 34.1;
-        System.out.println("Penambahan nilai");
+        System.out.println("Pegurangan nilai");
         System.out.println("Hasil pengurangan variabel a: " + a);
         System.out.println("Hasil pengurangan variabel b: " + b);
         System.out.println("Hasil pengurangan variabel c: " + c);
