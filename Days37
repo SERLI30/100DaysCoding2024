@@ -1,0 +1,45 @@
+package Days37;
+
+public class Days37 {
+
+    public static void main(String[] args) {
+        //Pengisian nilai
+        int a = 25;
+        byte b = 30;
+        short c = 67;
+        long d = 2378;
+        float e = 12.8f;
+        double f = 98.1;
+
+        //penambahan nilai
+        a += 15;
+        b += 23;
+        c += 13;
+        d += 134;
+        e += 8.1;
+        f += 56.2;
+        System.out.println("Penambahan nilai");
+        System.out.print("Hasil penambahan variabel a: " + a + "\n");
+        System.out.print("Hasil penambahan variabel b: " + b + "\n");
+        System.out.print("Hasil penambahan variabel c: " + c + "\n");
+        System.out.print("Hasil penambahan variabel d: " + d + "\n");
+        System.out.print("Hasil penambahan variabel e: " + e + "\n");
+        System.out.print("Hasil penambahan variabel f: " + f + "\n");
+
+        //pengurangan nilai
+        a -= 15;
+        b -= 5;
+        c -= 50;
+        d -= 90;
+        e -= 5.1;
+        f -= 34.1;
+        System.out.println("Penambahan nilai");
+        System.out.println("Hasil pengurangan variabel a: " + a);
+        System.out.println("Hasil pengurangan variabel b: " + b);
+        System.out.println("Hasil pengurangan variabel c: " + c);
+        System.out.println("Hasil pengurangan variabel d: " + d);
+        System.out.println("Hasil pengurangan variabel e: " + e);
+        System.out.println("Hasil pengurangan variabel f: " + f);
+
+    }
+}
