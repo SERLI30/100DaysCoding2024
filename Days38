@@ -1,0 +1,49 @@
+package Days38;
+
+public class Days38 {
+
+    public static void main(String[] args) {
+        //Pengisian nilai
+        int a = 59;
+        byte b = 80;
+        short c = 56;
+        long d = 2898;
+        float e = 50.8f;
+        double f = 118.1;
+
+        //perkalian nilai
+        a *= 19;
+        b *= 23;
+        c *= 19;
+        d *= 24;
+        e *= 14.1;
+        f *= 6.2;
+        System.out.println("Perkalian nilai:");
+        System.out.printf("Setelah perkalian divariabel a:%d\nSetelah perkalian divariabel b:%d\nSetelah perkalian divariabel c:%d\n"
+                + "Setelah perkalian divariabel d:%d\nSetelah perkalian divariabel e:%.0f\nSetelah perkalian divariabel f:%.0f\n", a, b, c, d, e, f);
+
+        //pengisian nilai
+        int h = 50;
+        byte i = 60;
+        short j = 96;
+        long k = 298;
+        float l = 68.8f;
+        double m = 908.1;
+
+        h /= 15;
+        i /= 3;
+        j /= 19;
+        k /= 14;
+        l /= 8.0;
+        m /= 5.0;
+        System.out.println("Pembagian nilai:");
+        System.out.print("Setelah pembagian divariabel h:" + h + "\n");
+        System.out.print("Setelah pembagian divariabel i:" + i + "\n");
+        System.out.print("Setelah pembagian divariabel j:" + j + "\n");
+        System.out.print("Setelah pembagian divariabel k:" + k + "\n");
+        System.out.print("Setelah pembagian divariabel l:" + l + "\n");
+        System.out.print("Setelah pembagian divariabel m:" + m + "\n");
+
+    }
+
+}
