@@ -1,0 +1,40 @@
+
+package Days39;
+
+public class Days39 {
+    public static void main(String[] args) {
+       //Deklarasi variabel
+        int a;
+        byte b;
+        short c;
+        long d;
+        float e;
+        double f;
+        
+        //insialisasi variabel
+        a=59;
+        b=10;
+        c=87;
+        d=6589;
+        e=98.0f;
+        f=323.0;
+        
+        //modulus nilai
+        a %= 2;
+        b %= 5;
+        c %= 3;
+        d %= 16;
+        e %= 2;
+        f %= 6;
+        
+        //Tampilkan memakai print
+        System.out.println("Modulus nilai:");
+        System.out.print("Setelah dimodulus divariabel a:" + a + "\n");
+        System.out.print("Setelah dimodulus divariabel b:" + b + "\n");
+        System.out.print("Setelah dimodulus divariabel c:" + c + "\n");
+        System.out.print("Setelah dimodulus divariabel d:" + d + "\n");
+        System.out.print("Setelah dimodulus divariabel e:" + e + "\n");
+        System.out.print("Setelah dimodulus divariabel f:" + f + "\n");
+        
+    }
+}
