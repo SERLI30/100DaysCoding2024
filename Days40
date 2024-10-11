@@ -8,11 +8,11 @@ public class Days40 {
         //Input dari keyboard
         Scanner serli = new Scanner(System.in);
         //input menggunakan print
-        System.out.print("Masukkan angka: ");
+        System.out.print("Masukkan angka untuk variabel a: ");
         //menggunakan tipe data int
         int a = serli.nextInt();
         //input menggunakan print
-        System.out.print("Masukkan angka: ");
+        System.out.print("Masukkan angka untuk variabel b: ");
         //menggunakan tipe data int
         int b = serli.nextInt();
 
@@ -21,13 +21,13 @@ public class Days40 {
         a += b;
         System.out.println("Setelah dijumlah: " + a);
         a -= b;
-        System.out.println("Setelah dijumlah: " + a);
+        System.out.println("Setelah dikurang: " + a);
         a *= b;
-        System.out.println("Setelah dijumlah: " + a);
+        System.out.println("Setelah dikalikan: " + a);
         a /= b;
-        System.out.println("Setelah dijumlah: " + a);
+        System.out.println("Setelah dibagi: " + a);
         a %= b;
-        System.out.println("Setelah dijumlah: " + a);
+        System.out.println("Setelah dimodulus: " + a);
         
         //Operator perbandingan :besar dan kecil
         //menggunakan tipe data boolean
