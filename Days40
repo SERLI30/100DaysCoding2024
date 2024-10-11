@@ -1,0 +1,41 @@
+package Days40;
+
+import java.util.Scanner;
+
+public class Days40 {
+
+    public static void main(String[] args) {
+        //Input dari keyboard
+        Scanner serli = new Scanner(System.in);
+        //input menggunakan print
+        System.out.print("Masukkan angka: ");
+        //menggunakan tipe data int
+        int a = serli.nextInt();
+        //input menggunakan print
+        System.out.print("Masukkan angka: ");
+        //menggunakan tipe data int
+        int b = serli.nextInt();
+
+        //operator aritmatika
+        //Tampilkan mengunakan println
+        a += b;
+        System.out.println("Setelah dijumlah: " + a);
+        a -= b;
+        System.out.println("Setelah dijumlah: " + a);
+        a *= b;
+        System.out.println("Setelah dijumlah: " + a);
+        a /= b;
+        System.out.println("Setelah dijumlah: " + a);
+        a %= b;
+        System.out.println("Setelah dijumlah: " + a);
+        
+        //Operator perbandingan :besar dan kecil
+        //menggunakan tipe data boolean
+        boolean c = a > b;
+        System.out.println("hasil c: " + c);
+        //menggunakan tipe data boolean
+        boolean d = a < b;
+        System.out.println("hasil d: "+ d);
+
+    }
+}
