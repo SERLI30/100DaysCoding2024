@@ -1,0 +1,41 @@
+package Days42;
+
+import java.util.Scanner;
+
+public class Days42 {
+
+    public static void main(String[] args) {
+        float k = 19.1f;
+        System.out.println("Nilai variabel k: " + k);
+
+        //casting dari tipe data float ke byte,short,int dan long
+        byte l = (byte) k;
+        System.out.println("hasil casting float ke byte: " + l);
+        short m = (short) k;
+        System.out.println("hasil casting float ke short:" + m);
+        int n = (int) k;
+        System.out.println("hasil casting float ke int:" + n);
+        long o = (long) k;
+        System.out.println("hasil casting float ke long:" + o);
+
+        String p = "selly";
+        System.out.println("Nilai variabel p: " + p);
+        //casting dari tipe data String ke char dan float
+        char q = p.charAt(0);
+        System.out.println("hasil casting String ke char:" + q);
+        float r = (float) q;
+        System.out.println("hasil casting String ke float:" + r);
+
+        //Operator Perbandingan : Sama dengan dan tidak sama dengan
+        Scanner serli = new Scanner(System.in);
+        System.out.print("Masukkan angka untuk variabel a: ");
+        int a =serli.nextInt();
+        System.out.print("Masukkan angka untuk variabel b: ");
+        int b = serli.nextInt();
+        boolean c = a == b;
+        System.out.println("hasil c: " + c);
+        //menggunakan tipe data boolean
+        boolean d = a != b;
+        System.out.println("hasil d: " + d);
+    }
+}
