@@ -1,0 +1,40 @@
+package Days43;
+
+import java.util.Scanner;
+
+public class Days43 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+        System.out.print("masukkan angka  untuk variabel a: ");
+        String a = serli.nextLine();
+        //konversi di String ke int
+        int n01 = Integer.valueOf(a);
+        System.out.print(n01 + "\n");
+        //konversi di String ke double
+        double no2 = Double.valueOf(a);
+        System.out.print(no2 + "\n");
+        //konversi di String ke float
+        float n03 = Float.valueOf(a);
+        System.out.print(n03 + "\n");
+        //konversi di String ke long
+        long n04 = Long.valueOf(a);
+        System.out.print(n04 + "\n");
+
+        //inputan dikeyboard
+        System.out.print("Masukkan angka untuk variabel b: ");
+        double b = serli.nextDouble();
+        System.out.print("Masukkan angka untuk variabel c: ");
+        double c = serli.nextDouble();
+        System.out.println("Langsung Menggunakan dalam Cetakan (System.out.println):");
+        System.out.println(b >= c);
+        System.out.println(b <= c);
+        System.out.println("Menyimpan Hasil Perbandingan dalam Variabel");
+        boolean hasil = b >= c;
+        System.out.println(hasil);
+        boolean hasila = b <= c;
+        System.out.println(hasila);
+
+    }
+
+}
