@@ -1,0 +1,47 @@
+package Days44;
+
+import java.util.Scanner;
+
+public class Days44 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+        // Membandingkan dua bilangan bertipe long
+        System.out.print("Masukkan bilangan long a: ");
+        long long_a = serli.nextLong();
+        System.out.print("Masukkan bilangan long b: ");
+        long long_b = serli.nextLong();
+
+        boolean hasil = long_a >= long_b && long_a % 2 == 0;
+        System.out.println("Apakah long_a lebih besar atau sama dengan long_b dan merupakan bilangan genap? " + hasil);
+
+        // Membandingkan dua karakter (char)
+        char char_a = 'S';
+        char char_b = 'L';
+        hasil = char_a != char_b && char_a == 'S';
+        System.out.println("Apakah char_a tidak sama dengan char_b dan char_a adalah 'S'? " + hasil);
+
+        char_a = 'J';
+        hasil = char_a != char_b && char_a == 'S';
+        System.out.println("Apakah char_a tidak sama dengan char_b dan char_a adalah 'S'? " + hasil);
+
+        // Membandingkan dua angka desimal (float)
+        System.out.print("Masukkan bilangan float a: ");
+        float float_a = serli.nextFloat();
+        System.out.print("Masukkan bilangan float b: ");
+        float float_b = serli.nextFloat();
+
+        hasil = float_a < float_b && float_a >= 0;
+        System.out.println("Apakah float_a lebih kecil dari float_b dan float_a adalah bilangan positif? " + hasil);
+
+        // Membandingkan dua angka bulat (short)
+        System.out.print("Masukkan bilangan short a: ");
+        short short_a = serli.nextShort();
+        System.out.print("Masukkan bilangan short b: ");
+        short short_b = serli.nextShort();
+
+        hasil = short_a < short_b && short_a >= 0;
+        System.out.println("Apakah short_a lebih kecil dari short_b dan short_a adalah bilangan positif? " + hasil);
+
+    }
+}
