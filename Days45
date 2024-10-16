@@ -1,0 +1,49 @@
+
+package Days45;
+
+import java.util.Scanner;
+
+public class Days45 {
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+        // Membandingkan dua bilangan bertipe byte
+        System.out.print("Masukkan bilangan byte a: ");
+        byte byte_a = serli.nextByte();
+        System.out.print("Masukkan bilangan byte b: ");
+        byte byte_b = serli.nextByte();
+
+        boolean hasil = byte_a < byte_b || byte_a % 2 != 0;
+        System.out.println("Apakah byte_a lebih kecil dari byte_b atau merupakan bilangan ganjil? " + hasil+"\n");
+
+        // Membandingkan dua karakter (char)
+        char char_a = 'D';
+        char char_b = 'L';
+        hasil = char_a == char_b || char_a != 'D';
+        System.out.println("Apakah char_a sama dengan char_b atau char_a bukan 'D'? " + hasil);
+
+        char_b = 'U';
+        hasil = char_a == char_b || char_a != 'D';
+        System.out.println("Apakah char_a sama dengan char_b atau char_b bukan 'l'? " + hasil+"\n");
+
+        // Membandingkan dua angka desimal (double)
+        System.out.print("Masukkan bilangan double a: ");
+        double double_a = serli.nextDouble();
+        System.out.print("Masukkan bilangan double b: ");
+        double double_b = serli.nextDouble();
+
+        hasil = double_a >= double_b || double_a <= double_b;
+        System.out.println("Apakah double_a lebih besar atau sama dengan double_b atau double_a adalah bilangan negatif? " + hasil+"\n");
+
+        // Membandingkan dua angka bulat (int)
+        System.out.print("Masukkan bilangan int a: ");
+        int int_a = serli.nextInt();
+        System.out.print("Masukkan bilangan int b: ");
+        int int_b = serli.nextInt();
+
+        hasil = int_a >= int_b || int_a < 0;
+        System.out.println("Apakah int_a lebih besar atau sama dengan int_b atau int_a adalah bilangan negatif? " + hasil);
+
+    }
+}
+
+   
