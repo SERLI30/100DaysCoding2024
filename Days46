@@ -1,0 +1,51 @@
+
+package Days46;
+
+import java.util.Scanner;
+
+public class Days46 {
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        System.out.print("Masukkan nilai boolean: ");
+        boolean A = serli.nextBoolean();  
+
+        System.out.print("Masukkan nilai integer: ");
+        int B = serli.nextInt(); 
+
+        System.out.print("Masukkan nilai double: ");
+        double C = serli.nextDouble(); 
+
+        System.out.print("Masukkan nilai float: ");
+        float D = serli.nextFloat();  
+
+        // Tampilkan nilai input awal
+        System.out.println("\nNilai boolean A: " + A);
+        System.out.println("Nilai integer B: " + B);
+        System.out.println("Nilai double C: " + C);
+        System.out.println("Nilai float D: " + D);
+
+        // Operasi logika AND, OR, dan negasi
+        System.out.println("\nOperasi logika:");
+        System.out.println("A AND (B > 0): " + (A && (B > 0)));  
+        System.out.println("A OR (C < 100): " + (A || (C < 100)));  
+        System.out.println("Negasi A (!A): " + !A); 
+        System.out.println("B lebih besar dari C: " + (B > C));  
+        System.out.println("C lebih kecil dari D: " + (C < D));  
+
+        // Update nilai berdasarkan operasi logika
+        A = !A; 
+        B = B / 2;  
+        C = C * 1.5; 
+      
+
+        // Tampilkan nilai setelah update
+        System.out.println("\nNilai setelah update:");
+        System.out.println("Nilai boolean A (setelah negasi): " + A);
+        System.out.println("Nilai integer B (setelah update): " + B);
+        System.out.println("Nilai double C (setelah update): " + C);
+       
+    }
+}
+
+   
