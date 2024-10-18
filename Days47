@@ -1,0 +1,42 @@
+package Days47;
+
+import java.util.Scanner;
+
+public class Days47 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        // Input untuk byte
+        System.out.print("Masukkan nilai byte: ");
+        byte bytea1 = serli.nextByte();
+        if (bytea1 >= 0) {
+            System.out.println("Byte positif: " + bytea1);
+        }
+        if (bytea1 < 0) {
+            System.out.println("Byte negatif: " + bytea1);
+        }
+
+        // Input untuk short
+        System.out.print("Masukkan nilai short: ");
+        short shorta2 = serli.nextShort();
+        if (shorta2 >= 0) {
+            System.out.println("Short positif: " + shorta2);
+        }
+        if (shorta2 < 0) {
+            System.out.println("Short negatif: " + shorta2);
+        }
+
+        // Input untuk int
+        System.out.print("Masukkan nilai int: ");
+        int inta3 = serli.nextInt();
+        if (inta3 >= 0) {
+            System.out.println("Int positif: " + inta3);
+        }
+        if (inta3 < 0) {
+            System.out.println("Int negatif: " + inta3);
+        }
+
+    }
+
+}
