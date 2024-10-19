@@ -1,0 +1,39 @@
+package Days48;
+
+import java.util.Scanner;
+
+public class Days48 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        // Input untuk double
+        System.out.print("Masukkan nilai double: ");
+        double doublea1 = serli.nextDouble();
+        if (doublea1 >= 0) {
+            System.out.println("Double positif: " + doublea1);
+        } else {
+            System.out.println("Double negatif: " + doublea1);
+        }
+
+        // Input untuk float
+        System.out.print("Masukkan nilai float: ");
+        float floata2 = serli.nextFloat();
+        if (floata2 >= 0) {
+            System.out.println("Float positif: " + floata2);
+        } else {
+            System.out.println("Float negatif: " + floata2);
+        }
+
+        // Input untuk long
+        System.out.print("Masukkan nilai long: ");
+        long longa3 = serli.nextLong();
+        if (longa3 >= 0) {
+            System.out.println("Long positif: " + longa3);
+        } else {
+            System.out.println("Long negatif: " + longa3);
+        }
+
+    }
+
+}
