@@ -1,0 +1,47 @@
+package Days49;
+
+import java.util.Scanner;
+
+public class Days49 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        System.out.print("Masukkan sebuah angka: ");
+        int angka = serli.nextInt();
+
+        if (angka > 0 && angka <= 10) {
+            System.out.println("Angka positif dan kecil (1-10).");
+        } else if (angka > 10 && angka <= 50) {
+            System.out.println("Angka positif dan sedang (11-50).");
+        } else if (angka > 50) {
+            System.out.println("Angka positif dan besar (>50).");
+        } else if (angka < 0 && angka >= -10) {
+            System.out.println("Angka negatif dan kecil (-1 hingga -10).");
+        }
+
+        // Menggunakan else if untuk mengecek apakah angka ganjil atau genap
+        if (angka % 2 == 0) {
+            System.out.println("Angka ini adalah bilangan genap.");
+        } else if (angka % 2 != 0) {
+            System.out.println("Angka ini adalah bilangan ganjil.");
+        }
+
+        // Mengecek apakah angka positif/negatif ganjil/genap
+        if (angka > 0) {
+            if (angka % 2 == 0) {
+                System.out.println("Angka positif dan genap.");
+            } else if (angka % 2 != 0) {
+                System.out.println("Angka positif dan ganjil.");
+            }
+        } else if (angka < 0) {
+            if (angka % 2 == 0) {
+                System.out.println("Angka negatif dan genap.");
+            } else if (angka % 2 != 0) {
+                System.out.println("Angka negatif dan ganjil.");
+            }
+        }
+
+    }
+
+}
