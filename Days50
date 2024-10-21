@@ -1,0 +1,38 @@
+package Days50;
+
+import java.util.Scanner;
+
+public class Days50 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        System.out.print("Masukkan sebuah angka: ");
+        //tipe data long
+        long angka = serli.nextLong();
+
+        // Menentukan ukuran angka (kecil, sedang, besar)
+        if (angka > 0 && angka <= 10) {
+            System.out.println("Angka positif dan kecil (1-10): " + angka);
+        } else if (angka > 10 && angka <= 50) {
+            System.out.println("Angka positif dan sedang (11-50): " + angka);
+        } else if (angka > 50) {
+            System.out.println("Angka positif dan besar (>50): " + angka);
+        } else if (angka < 0 && angka >= -10) {
+            System.out.println("Angka negatif dan kecil (-1 hingga -10): " + angka);
+        } else if (angka < -10) {
+            System.out.println("Angka negatif dan besar (<-10): " + angka);
+        } else {
+            System.out.println("Angka adalah nol: " + angka);
+        }
+
+        // Mengecek apakah angka ganjil/genap
+        if (angka != 0) {
+            if (angka % 2 == 0) {
+                System.out.println("Angka ini adalah bilangan genap: " + angka);
+            } else {
+                System.out.println("Angka ini adalah bilangan ganjil: " + angka);
+            }
+        }
+    }
+}
