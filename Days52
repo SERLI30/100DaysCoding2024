@@ -1,0 +1,46 @@
+
+package Days52;
+
+import java.util.Scanner;
+
+public class Days52 {
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+                
+        //tipe data int
+        System.out.print("Masukkan angka untuk tipe data int: ");
+        int a = serli.nextInt();
+        String hasil_a=(a % 2 == 0) ? "genap" : "ganjil";
+        System.out.println("Bilangan " + a + " adalah " + hasil_a);
+        
+        //tipe data byte
+        System.out.print("Masukkan angka untuk tipe data byte: ");
+        byte b = serli.nextByte();
+        String hasil_b=(b % 2 == 0) ? "genap" : "ganjil";
+        System.out.println("Bilangan " + b + " adalah " + hasil_b);
+        
+        //tipe data short
+        System.out.print("Masukkan angka untuk tipe data short: ");
+        short c = serli.nextShort();
+        String hasil_c=(c % 2 == 0) ? "genap" : "ganjil";
+        System.out.println("Bilangan " + c + " adalah " + hasil_c);
+        
+        //tipe data long
+        System.out.print("Masukkan angka untuk tipe data long: ");
+        Long d = serli.nextLong();
+        String hasil_d=(d % 2 == 0) ? "genap" : "ganjil";
+        System.out.println("Bilangan " + d + " adalah " + hasil_d);
+        
+        //tipe data double
+        System.out.print("Masukkan angka untuk tipe data double: ");
+        double e = serli.nextDouble();
+        String hasil_e = (e % 1 == 0) ? ((e % 2 == 0) ? "genap" : "ganjil") : "bukan bilangan bulat";
+        System.out.println("Bilangan " + e + " adalah " + hasil_e);
+        
+        //tipe data float
+        System.out.print("Masukkan angka untuk tipe data float: ");
+        float f = serli.nextFloat();
+        String hasil_f = (f % 1 == 0) ? ((f % 2 == 0) ? "genap" : "ganjil") : "bukan bilangan bulat";
+        System.out.println("Bilangan " + f + " adalah " + hasil_f);
+    }
+}
