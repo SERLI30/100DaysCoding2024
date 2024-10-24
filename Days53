@@ -1,0 +1,46 @@
+package Days53;
+
+import java.util.Scanner;
+
+public class Days53 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        System.out.print("Masukkan angka pertama: ");
+        int ang1 = serli.nextInt();
+
+        System.out.print("Masukkan angka kedua: ");
+        int ang2 = serli.nextInt();
+
+        System.out.print("Pilih operasi (+, -, *, /): ");
+        char operasi = serli.next().charAt(0);
+
+        int hasil;
+
+        switch (operasi) {
+            case '+':
+                hasil = ang1 + ang2;
+                break;
+            case '-':
+                hasil = ang1 - ang2;
+                break;
+            case '*':
+                hasil = ang1 * ang2;
+                break;
+            case '/':
+                if (ang2 != 0) {
+                    hasil = ang1 / ang2;
+                } else {
+                    System.out.println("Error: Pembagi tidak boleh nol.");
+                    return;
+                }
+                break;
+            default:
+                System.out.println("Operasi tidak valid.");
+                return;
+        }
+
+        System.out.println("Hasil: " + hasil);
+    }
+}
