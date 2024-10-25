@@ -1,0 +1,46 @@
+package Days54;
+
+import java.util.Scanner;
+
+public class Days54 {
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        System.out.print("Masukkan jumlah angka yang ingin dimasukkan: ");
+        int jumlahInput = serli.nextInt();
+
+        for (int i = 1; i <= jumlahInput; i++) {
+            System.out.print("Masukkan angka ke-" + i + "untuk tipe data long:");
+            long angka = serli.nextLong();
+
+            if (angka > 0 && angka <= 10) {
+                System.out.println("Angka positif dan kecil (1-10): " + angka);
+            } else if (angka > 10 && angka <= 50) {
+                System.out.println("Angka positif dan sedang (11-50): " + angka);
+            } else if (angka > 50) {
+                System.out.println("Angka positif dan besar (>50): " + angka);
+            } else if (angka < 0 && angka >= -10) {
+                System.out.println("Angka negatif dan kecil (-1 hingga -10): " + angka);
+            } else if (angka < -10) {
+                System.out.println("Angka negatif dan besar (<-10): " + angka);
+            } else {
+                System.out.println("Angka adalah nol: " + angka);
+            }
+        }
+
+        for (int i = 1; i <= jumlahInput; i++) {
+            System.out.print("Masukkan angka ke-" + i + " untuk tipe data int: ");
+            int a = serli.nextInt();
+            String hasil_a = (a % 2 == 0) ? "genap" : "ganjil";
+            System.out.println("Bilangan " + a + " adalah " + hasil_a);
+        }
+
+        for (int i = 1; i <= jumlahInput; i++) {
+            System.out.print("Masukkan angka ke-" + i + " untuk tipe data byte: ");
+            byte b = serli.nextByte();
+            String hasil_b = (b % 2 == 0) ? "genap" : "ganjil";
+            System.out.println("Bilangan " + b + " adalah " + hasil_b);
+        }
+ 
+    }
+}
