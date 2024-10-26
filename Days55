@@ -1,0 +1,44 @@
+
+package Days55;
+
+import java.util.Scanner;
+
+public class Days55 {
+    public static void main(String[] args) {
+       
+        Scanner serli = new Scanner(System.in);
+
+        // Input untuk byte
+        System.out.print("Masukkan nilai byte: ");
+        byte ba = serli.nextByte();
+        if (ba >= 0) {
+            System.out.println("Byte positif: " + ba);
+        } else {
+            System.out.println("Byte negatif: " + ba);
+        }
+
+        System.out.print("Nilai byte decrement: ");
+        for (byte i = ba; i >= 0; i--) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+        // Input untuk short
+        System.out.print("Masukkan nilai short: ");
+        short sh = serli.nextShort();
+        if (sh>= 0) {
+            System.out.println("Short positif: " + sh);
+        } else {
+            System.out.println("Short negatif: " + sh);
+        }
+
+        System.out.print("Nilai short decrement: ");
+        for (short i = sh; i >= 0; i--) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+    }
+}
+
+   
