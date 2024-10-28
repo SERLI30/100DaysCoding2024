@@ -1,0 +1,43 @@
+package Days57;
+
+import java.util.Scanner;
+
+public class Days57 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+        System.out.print("Masukkan batas akhir nilai (limit): ");
+        int limit = serli.nextInt();
+
+        int a = 1;
+        System.out.println("Memulai loop while dengan increment:");
+
+        while (a <= limit) {
+            System.out.println("Nilai a: " + a);
+
+            if (a % 2 == 0) {
+                System.out.println(a + " adalah bilangan genap.");
+            } else {
+                System.out.println(a + " adalah bilangan ganjil.");
+            }
+
+            if (a == 5) {
+                System.out.println(a + " telah mencapai nilai 5 - nilai tengah rentang.");
+            } else if (a == 28) {
+                System.out.println(a + " adalah bilangan favorit.");
+            } else if (a == 7) {
+                System.out.println(a + " adalah bilangan keberuntungan.");
+            }
+
+            if (a == limit) {
+                System.out.println(a + " telah mencapai batas akhir.");
+            }
+
+            a++;
+
+            System.out.println("-------------------------------");
+        }
+
+        System.out.println("Loop selesai.");
+    }
+}
