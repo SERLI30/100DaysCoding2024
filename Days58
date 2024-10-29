@@ -1,0 +1,50 @@
+package Days58;
+
+import java.util.Scanner;
+
+public class Days58 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+        System.out.print("Masukkan batas awal nilai (limit): ");
+        int limit = serli.nextInt();
+
+        int a = limit;
+        System.out.println("Memulai loop while dengan decrement:");
+
+       
+        while ((limit > 0 && a >= 1) || (limit < 0 && a <= -1)) {
+            System.out.println("Nilai a: " + a);
+
+            if (a > 0) {
+                System.out.println(a + " adalah bilangan positif.");
+            } else if (a < 0) {
+                System.out.println(a + " adalah bilangan negatif.");
+            }
+
+           
+            if (a % 2 == 0) {
+                System.out.println(a + " adalah bilangan genap.");
+            } else {
+                System.out.println(a + " adalah bilangan ganjil.");
+            }
+
+            
+            if (a == 1 || a == -1) {
+                System.out.println(a + " telah mencapai batas akhir.");
+            }
+
+           
+            if (limit > 0) {
+                a--; 
+            } else {
+                a++; 
+            }
+
+            System.out.println("-------------------------------");
+        }
+
+        System.out.println("Loop selesai.");
+        serli.close();
+    }
+}
