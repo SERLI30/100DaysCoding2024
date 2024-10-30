@@ -1,0 +1,43 @@
+package days59;
+
+import java.util.ArrayList;
+
+public class Days59 {
+
+    public static void main(String[] args) {
+        ArrayList<String> namaBuah = new ArrayList<>();
+
+        namaBuah.add("Apel");
+        namaBuah.add("Mangga");
+        namaBuah.add("Pisang");
+        namaBuah.add("Durian");
+        namaBuah.add("Semangka");
+        namaBuah.add("Anggur");
+        namaBuah.add("Stroberi");
+        namaBuah.add("Nanas");
+        namaBuah.add("Pepaya");
+        namaBuah.add("Sirsak");
+
+        System.out.println("Daftar Nama Buah:");
+        System.out.println("-----------------------------");
+
+        for (String buah : namaBuah) {
+            System.out.println("Nama Buah: " + buah);
+        }
+
+        System.out.println("-----------------------------");
+        System.out.println("Total buah dalam daftar: " + namaBuah.size());
+
+        System.out.println("-----------------------------");
+        System.out.println("Menampilkan daftar buah yang berawalan huruf S:");
+
+      
+        for (String buah : namaBuah) {
+            char firstChar = buah.charAt(0);
+            if (firstChar == 'S' || firstChar == 's') { 
+                System.out.println("Buah dengan awalan S: " + buah);
+
+            }
+        }
+    }
+}
