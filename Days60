@@ -1,0 +1,41 @@
+package Days60;
+
+import java.util.Scanner;
+
+public class Days60 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+        int sum = 0;
+        int count = 0;
+        boolean continueInput = true;
+
+        System.out.println("----Program Penjumlahan Angka----");
+        System.out.println("Masukkan angka satu per satu. Masukkan angka negatif untuk berhenti.");
+        System.out.println("====================================================================");
+
+        do {
+            System.out.print("Masukkan angka ke-" + (count + 1) + ": ");
+            int number = serli.nextInt();
+
+            if (number < 0) {
+                System.out.println("Angka negatif terdeteksi. Menghentikan input.");
+                continueInput = false;
+            } else {
+                sum += number;
+                count++;
+                System.out.println("Angka saat ini ditambahkan ke total. Total sementara: " + sum);
+            }
+
+            System.out.println("---------------------------------");
+
+        } while (continueInput);
+
+        System.out.println("\n----Hasil Akhir----");
+        System.out.println("Jumlah angka yang dimasukkan: " + count);
+        System.out.println("Total penjumlahan angka: " + sum);
+        System.out.println("========================");
+
+        serli.close();
+    }
+}
