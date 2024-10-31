@@ -8,7 +8,7 @@ public class Days60 {
         Scanner serli = new Scanner(System.in);
         int sum = 0;
         int count = 0;
-        boolean continueInput = true;
+        boolean a = true;
 
         System.out.println("----Program Penjumlahan Angka----");
         System.out.println("Masukkan angka satu per satu. Masukkan angka negatif untuk berhenti.");
@@ -20,7 +20,7 @@ public class Days60 {
 
             if (number < 0) {
                 System.out.println("Angka negatif terdeteksi. Menghentikan input.");
-                continueInput = false;
+               a = false;
             } else {
                 sum += number;
                 count++;
@@ -29,7 +29,7 @@ public class Days60 {
 
             System.out.println("---------------------------------");
 
-        } while (continueInput);
+        } while (a);
 
         System.out.println("\n----Hasil Akhir----");
         System.out.println("Jumlah angka yang dimasukkan: " + count);
