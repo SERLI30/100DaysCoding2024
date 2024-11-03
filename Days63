@@ -1,0 +1,24 @@
+package Days63;
+
+import java.util.Scanner;
+
+public class Days63 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        System.out.print("Masukkan jumlah angka yang ingin dicek: ");
+        int jumlah = serli.nextInt();
+
+        for (int i = 0; i < jumlah; i++) {
+            System.out.print("Masukkan angka: ");
+            int angka = serli.nextInt();
+
+            if (angka <= 0 || angka % 2 != 0) {
+                continue; 
+            }
+            System.out.println("Angka positif dan genap: " + angka);
+        }
+
+    }
+}
