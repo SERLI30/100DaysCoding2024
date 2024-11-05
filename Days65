@@ -1,0 +1,24 @@
+package Days65;
+
+import java.util.Scanner;
+
+public class Days65 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        System.out.print("Masukkan batas untuk baris: ");
+        int a = serli.nextInt();
+
+        System.out.print("Masukkan batas untuk kolom: ");
+        int b = serli.nextInt();
+
+        for (int i = 1; i <= a; i++) {
+            for (int j = 1; j <= b; j++) {
+                System.out.print(i * j + "\t");
+            }
+            System.out.println();
+        }
+
+    }
+}
