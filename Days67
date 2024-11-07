@@ -1,0 +1,22 @@
+package Days67;
+
+import java.util.Scanner;
+
+public class Days67 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+        System.out.print("Masukkan angka maksimum: ");
+        int max = serli.nextInt();
+
+        MencetakBilanganGenap(max);
+    }
+
+    public static void MencetakBilanganGenap(int max) {
+        for (int i = 1; i <= max; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
+        }
+    }
+}
