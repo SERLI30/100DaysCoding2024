@@ -1,0 +1,28 @@
+
+package Days69;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Days69 {
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+        System.out.print("Masukkan angka maksimum: ");
+        int max = serli.nextInt();
+
+        String hasil = mendapatkanBilanganGanjil(max);
+        System.out.println(hasil);
+    }
+
+    public static String mendapatkanBilanganGanjil(int max) {
+        ArrayList<Integer> GanjilList = new ArrayList<>();
+
+        for (int i = 1; i <= max; i++) {
+            if (i % 2 != 0) {
+                GanjilList.add(i);
+            }
+        }
+
+        return GanjilList.toString().replaceAll("[\\[\\],]", "");
+    }
+}
