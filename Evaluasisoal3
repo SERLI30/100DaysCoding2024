@@ -1,0 +1,59 @@
+package Evaluasi2;
+
+import java.util.Scanner;
+
+public class evaluasi1 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+        int pilihan;
+         
+        menuloop : while(true){
+            System.out.println("Pilihan Menu: ");
+            System.out.println("1. Hitung Luas Persegi");
+            System.out.println("2. Hitung Luas Lingkaran");
+            System.out.println("3. Hitung Luas Segitiga");
+            System.out.println("4. Keluar");
+            System.out.print("Masukkan pilihan: ");
+            pilihan = serli.nextInt();
+            
+            switch(pilihan){
+                case 1: 
+                    HitungLuasPersegi(serli);
+                    break;
+                case 2: 
+                   HitungLuasLingkaran(serli);
+                   break;
+                case 3: 
+                    HitungLuasSegitiga(serli);
+                   break;
+                case 4:
+                    System.out.println("Program selesai");
+                    break menuloop;
+                default: 
+                    System.out.println("angka yang anda masukkan tidak valid");
+            }
+            
+        }
+    }
+    public static void HitungLuasPersegi(Scanner serli) {
+        System.out.print("Masukkan sisi persegi:");
+        int sisi = serli.nextInt();
+        int luas = sisi * sisi;
+        System.out.println("Luas Persegi: "+luas);
+    }
+    public static void HitungLuasLingkaran(Scanner serli) {
+        System.out.print("Masukkan jari- jari lingkaran:");
+        double jari = serli.nextDouble();
+        double luas = Math.PI *jari *jari;
+        System.out.println("Luas Lingkaran: "+ luas);
+    }
+    public static void HitungLuasSegitiga(Scanner serli) {
+        System.out.print("Masukkan nilai alas: ");
+        double alas = serli.nextDouble();
+        System.out.print("Masukkan nilai tinggi: ");
+        double tinggi= serli.nextDouble();
+        double luas = 0.5 * alas * tinggi;
+        System.out.println("Luas Segitiga: "+ luas);
+    }
+}
