@@ -1,0 +1,21 @@
+package Evaluasi2;
+
+import java.util.Scanner;
+
+public class evaluasi1 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+        int N = serli.nextInt();
+        int total = 0;
+        for (int i = 1; i <= N; i++) {
+            if(i % 4 == 0){
+                total *= 2;
+            }else {
+                total += 100;
+            }
+            
+        }
+        System.out.println(total);
+    }
+}
