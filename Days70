@@ -1,0 +1,44 @@
+package Days70;
+
+import java.util.Scanner;
+
+public class Days70 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        System.out.print("Masukkan angka pertama: ");
+        int angka1 = serli.nextInt();
+
+        System.out.print("Masukkan angka kedua: ");
+        int angka2 = serli.nextInt();
+
+        System.out.println("Hasil penjumlahan: " + jumlahkanAngka(angka1, angka2));
+        System.out.println("Hasil pengurangan: " + kurangkanAngka(angka1, angka2));
+        System.out.println("Hasil perkalian: " + kalikanAngka(angka1, angka2));
+
+        if (angka2 != 0) {  // Cek pembagian dengan nol
+            System.out.println("Hasil pembagian: " + bagiAngka(angka1, angka2));
+        } else {
+            System.out.println("Pembagian tidak dapat dilakukan (pembagi nol).");
+        }
+
+      
+    }
+
+    public static int jumlahkanAngka(int angka1, int angka2) {
+        return angka1 + angka2;
+    }
+
+    public static int kurangkanAngka(int angka1, int angka2) {
+        return angka1 - angka2;
+    }
+
+    public static int kalikanAngka(int angka1, int angka2) {
+        return angka1 * angka2;
+    }
+
+    public static double bagiAngka(int angka1, int angka2) {
+        return (double) angka1 / angka2;
+    }
+}
