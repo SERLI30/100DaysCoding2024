@@ -1,0 +1,45 @@
+package Days71;
+
+import java.util.Scanner;
+
+public class Days71 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        System.out.print("Masukkan angka pertama: ");
+        int angka1 = serli.nextInt();
+
+        System.out.print("Masukkan angka kedua: ");
+        int angka2 = serli.nextInt();
+
+        tampilkanHasil(angka1, angka2);
+
+    }
+
+    public static void tampilkanHasil(int a, int b) {
+        int penjumlahan = tambah(a, b);
+        int pengurangan = kurang(a, b);
+        int perkalian = kali(a, b);
+
+        System.out.println("Hasil Penjumlahan: " + penjumlahan + " (" + cekGanjilGenap(penjumlahan) + ")");
+        System.out.println("Hasil Pengurangan: " + pengurangan + " (" + cekGanjilGenap(pengurangan) + ")");
+        System.out.println("Hasil Perkalian: " + perkalian + " (" + cekGanjilGenap(perkalian) + ")");
+    }
+
+    public static int tambah(int a, int b) {
+        return a + b;
+    }
+
+    public static int kurang(int a, int b) {
+        return a - b;
+    }
+
+    public static int kali(int a, int b) {
+        return a * b;
+    }
+
+    public static String cekGanjilGenap(int hasil) {
+        return (hasil % 2 == 0) ? "Genap" : "Ganjil";
+    }
+}
