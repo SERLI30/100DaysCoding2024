@@ -1,0 +1,23 @@
+
+package Days72;
+
+import java.util.Scanner;
+
+public class Days72 {
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+        System.out.print("Masukkan angka: ");
+        int angka = serli.nextInt();
+        System.out.println("Hasil perkalian bilangan genap dari " + angka + " hingga 2 adalah: " + kaliGenap(angka));
+    }
+
+    public static int kaliGenap(int n) {
+        if (n < 2) {
+            return 1; 
+        } else if (n % 2 == 0) {
+            return n * kaliGenap(n - 2); 
+        } else {
+            return kaliGenap(n - 1); 
+        }
+    }
+}
