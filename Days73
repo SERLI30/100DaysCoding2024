@@ -1,0 +1,20 @@
+package Days73;
+
+public class Days73 {
+
+    public static void main(String[] args) {
+        String f = "alam";
+        String g = "rumus";
+        String h = "cacing";
+        String i = "manusia";
+        String j = "beans";
+        String k = "bahaya";
+        String l = "ngoding";
+        String m = "dinihari";
+
+        String output = "" + f.charAt(1) + g.charAt(3) + h.charAt(2) + i.charAt(0) + j.charAt(2) + k.charAt(4) + l.charAt(2) + m.charAt(2);;
+        System.out.println(output);
+
+    }
+
+}
