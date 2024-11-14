@@ -1,0 +1,25 @@
+
+package Days74;
+
+import java.util.Scanner;
+
+public class Days74 {
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+        
+        System.out.println("=== Program Menghitung Panjang String ===");
+        System.out.print("Silakan masukkan kata atau kalimat: ");
+        
+        String A = serli.nextLine();
+        
+        int B = A.length();
+        
+        System.out.println();
+        System.out.println("Hasil Perhitungan:");
+        System.out.println("Teks yang Anda masukkan adalah: " + A);
+        System.out.println("Jumlah karakter adalah: " + B);
+        
+        System.out.println();
+        System.out.println("=== Terima kasih telah menggunakan program ini! ===");
+    }
+}
