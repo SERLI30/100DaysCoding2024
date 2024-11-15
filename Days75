@@ -1,0 +1,23 @@
+
+package Days75;
+
+import java.util.Scanner;
+
+public class Days75 {
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        System.out.print("Masukkan kata pertama: ");
+        String kata1 =  serli.nextLine();
+
+        System.out.print("Masukkan kata kedua: ");
+        String kata2 =  serli.nextLine();
+
+        String A = kata1.toLowerCase();
+        String B = kata2.toLowerCase();
+
+        System.out.println("Kata pertama dalam huruf kecil: " + A);
+        System.out.println("Kata kedua dalam huruf kecil: " + B);
+
+    }
+}
