@@ -1,0 +1,18 @@
+package Days76;
+
+import java.util.Scanner;
+
+public class Days76 {
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        System.out.print("Masukkan sebuah kata: ");
+        String kata = serli.nextLine();
+
+        String A = kata.toUpperCase();
+        String a = kata.toLowerCase();
+
+        System.out.println("Huruf besar: " + A);
+        System.out.println("Huruf kecil: " + a);
+    }
+}
