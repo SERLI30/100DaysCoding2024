@@ -8,12 +8,12 @@ public class Days77 {
         Scanner serli = new Scanner(System.in);
 
         System.out.print("Masukkan kata atau kalimat: ");
-        String namaPengguna = serli.nextLine();
+        String kata = serli.nextLine();
 
         System.out.print("Masukkan kata atau kalimat yang ingin dicocokkan: ");
-        String namaCocokkan = serli.nextLine();
+        String kalimat = serli.nextLine();
 
-        if (namaPengguna.toLowerCase().equals(namaCocokkan.toLowerCase())) {
+        if (kata.toLowerCase().equals(kalimat.toLowerCase())) {
             System.out.println("kata atau kalimat sesuai!");
         } else {
             System.out.println("kata atau kalimat tidak sesuai.");
