@@ -1,0 +1,23 @@
+package Days77;
+
+import java.util.Scanner;
+
+public class Days77 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        System.out.print("Masukkan kata atau kalimat: ");
+        String namaPengguna = serli.nextLine();
+
+        System.out.print("Masukkan kata atau kalimat yang ingin dicocokkan: ");
+        String namaCocokkan = serli.nextLine();
+
+        if (namaPengguna.toLowerCase().equals(namaCocokkan.toLowerCase())) {
+            System.out.println("kata atau kalimat sesuai!");
+        } else {
+            System.out.println("kata atau kalimat tidak sesuai.");
+        }
+
+    }
+}
