@@ -1,0 +1,23 @@
+
+package Days78;
+
+import java.util.Scanner;
+
+public class Days78 {
+    public static void main(String[] args) {
+        Scanner serli= new Scanner(System.in);
+
+        System.out.print("Masukkan kata pertama: ");
+        String kata1 = serli.nextLine();
+
+        System.out.print("Masukkan kata kedua: ");
+        String kata2 = serli.nextLine();
+
+        if (kata1.equalsIgnoreCase(kata2)) {
+            System.out.println("Kedua kata sama ");
+        } else {
+            System.out.println("Kedua kata berbeda");
+        }
+
+    }
+}
