@@ -1,0 +1,33 @@
+package Days79;
+
+import java.util.Scanner;
+
+class Serli {
+
+    String nama;
+    int harga;
+
+    Serli(String nama, int harga) {
+        this.nama = nama;
+        this.harga = harga;
+    }
+
+    @Override
+    public String toString() {
+        return "Nama Produk: " + nama + ", Harga: Rp" + harga;
+    }
+}
+
+public class Days79 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+        System.out.print("Masukkan nama produk: ");
+        String nama = serli.nextLine();
+        System.out.print("Masukkan harga produk: ");
+        int harga = serli.nextInt();
+
+        Serli produk = new Serli(nama, harga);
+        System.out.println(produk.toString());
+    }
+}
