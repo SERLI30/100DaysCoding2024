@@ -1,0 +1,41 @@
+package Days82;
+
+public class Days82 {
+
+    public static void main(String[] args) {
+        System.out.println("Konversi tipe data ke String");
+        System.out.println("----------------------------");
+        int a = 28;
+        String strInt = String.valueOf(a);
+        System.out.println("Konversi int ke String: " + strInt);
+
+        double b = 3.1159;
+        String strDouble = String.valueOf(b);
+        System.out.println("Konversi double ke String: " + strDouble);
+
+        float c = 2.8f;
+        String strFloat = String.valueOf(c);
+        System.out.println("Konversi float ke String: " + strDouble);
+
+        long d = 123459L;
+        String strLong = String.valueOf(d);
+        System.out.println("Konversi long ke String: " + strLong);
+
+        char e = 'S';
+        String strChar = String.valueOf(e);
+        System.out.println("Konversi char ke String: " + strChar);
+
+        boolean g = true;
+        String strBoolean = String.valueOf(g);
+        System.out.println("Konversi boolean ke String: " + strBoolean);
+        
+        System.out.println("---------------------------------");
+        System.out.println("Konversi String ke char");
+        System.out.println("-----------------------");
+
+        String f = "LUWIL";
+        char j = f.charAt(2);
+        System.out.println("Konversi String ke char: " + j);
+
+    }
+}
