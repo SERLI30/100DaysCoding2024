@@ -15,7 +15,7 @@ public class Days82 {
 
         float c = 2.8f;
         String strFloat = String.valueOf(c);
-        System.out.println("Konversi float ke String: " + strDouble);
+        System.out.println("Konversi float ke String: " + strFloat);
 
         long d = 123459L;
         String strLong = String.valueOf(d);
