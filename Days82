@@ -1,0 +1,33 @@
+package Days82;
+
+public class Dayss82 {
+
+    public static void main(String[] args) {
+        double a = 2.3;
+        double b = -2.7;
+        double d = 2.5;
+
+        System.out.println("Method ceil(), floor() dan round() untuk double");
+        System.out.println("Math.ceil() untuk double a: " + Math.ceil(a));
+        System.out.println("Math.ceil() untuk double b: " + Math.ceil(b));
+
+        System.out.println("Math.floor() untuk double a: " + Math.floor(a));
+        System.out.println("Math.floor() untuk double b: " + Math.floor(b));
+
+        System.out.println("Math.round() untuk double d: " + Math.round(d));
+
+        System.out.println();
+
+        double e = 7.4;
+        double f = -3.8;
+        double g = 4.5;
+
+        System.out.println("Math.ceil() untuk double e: " + Math.ceil(e));
+        System.out.println("Math.ceil() untuk double f: " + Math.ceil(f));
+
+        System.out.println("Math.floor() untuk double e: " + Math.floor(e));
+        System.out.println("Math.floor() untuk double f: " + Math.floor(f));
+
+        System.out.println("Math.round() untuk double g: " + Math.round(g));
+    }
+}
