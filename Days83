@@ -1,0 +1,37 @@
+package Days83;
+
+import java.util.Scanner;
+
+public class Days83 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        System.out.print("Masukkan jumlah elemen array: ");
+        int a = serli.nextInt();
+
+        String[] b = new String[a];
+
+        System.out.println("Masukkan elemen array:");
+        for (int i = 0; i < a; i++) {
+            System.out.print("Elemen ke-" + (i + 1) + ": ");
+            b[i] = serli.next();
+        }
+
+        System.out.println("Array yang dimasukkan:");
+        for (int i = 0; i < a; i++) {
+            System.out.println("Elemen ke-" + (i + 1) + ": " + b[i]);
+        }
+
+        System.out.println("Program selesai.");
+        System.out.println("---------------------------------");
+        System.out.println("Jumlah elemen di array adalah: " + a);
+        System.out.println("Berikut adalah elemen-elemen array Anda:");
+
+        for (int i = 0; i < a; i++) {
+            System.out.println("- " + b[i]);
+        }
+
+        System.out.println("Terima kasih telah menggunakan program ini.");
+    }
+}
