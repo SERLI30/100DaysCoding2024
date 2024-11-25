@@ -11,19 +11,19 @@ public class Days85 {
 
         System.out.println("Array Angka:");
         for (int a : angka) {
-            System.out.print(a + " ");
+            System.out.print(a +","+ " ");
         }
         System.out.println();
 
         System.out.println("Array Buah:");
-        for (String n : buah) {
-            System.out.print(n + " ");
+        for (String b : buah) {
+            System.out.print(b +","+ " ");
         }
         System.out.println();
 
         System.out.println("Array Harga:");
-        for (double h : harga) {
-            System.out.print(h + " ");
+        for (double c : harga) {
+            System.out.print(c +","+ " ");
         }
     }
 }
