@@ -1,0 +1,29 @@
+
+package Days85;
+
+import java.util.Scanner;
+
+public class Days85 {
+    public static void main(String[] args) {
+        int angka[] = {10, 20, 30, 40, 50};
+        String buah[] = {"apel", "bluberry", "anggur", "delima", "manggis"};
+        double harga[] = {15.5, 20.0, 10.5, 22.3, 18.9};
+
+        System.out.println("Array Angka:");
+        for (int a : angka) {
+            System.out.print(a + " ");
+        }
+        System.out.println();
+
+        System.out.println("Array Buah:");
+        for (String n : buah) {
+            System.out.print(n + " ");
+        }
+        System.out.println();
+
+        System.out.println("Array Harga:");
+        for (double h : harga) {
+            System.out.print(h + " ");
+        }
+    }
+}
