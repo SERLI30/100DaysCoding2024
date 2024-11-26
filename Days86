@@ -1,0 +1,41 @@
+package Days86;
+
+import java.util.Scanner;
+
+public class Days86 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        System.out.print("Masukkan jumlah elemen array: ");
+        int a = serli.nextInt();
+
+        int[] b = new int[a];
+
+        System.out.println("Masukkan elemen array:");
+        for (int i = 0; i < a; i++) {
+            System.out.print("Elemen ke-" + (i + 1) + ": ");
+            b[i] = serli.nextInt();
+        }
+
+        System.out.println("Elemen pada array adalah:");
+        for (int i = 0; i < a; i++) {
+            System.out.println("Indeks " + i + ": " + b[i]);
+        }
+
+        System.out.println("Menampilkan elemen yang genap:");
+        for (int i = 0; i < a; i++) {
+            if (b[i] % 2 == 0) {
+                System.out.println("Elemen genap: " + b[i]);
+            }
+        }
+
+        System.out.println("Menampilkan elemen yang ganjil:");
+        for (int i = 0; i < a; i++) {
+            if (b[i] % 2 != 0) {
+                System.out.println("Elemen ganjil: " + b[i]);
+            }
+        }
+
+    }
+}
