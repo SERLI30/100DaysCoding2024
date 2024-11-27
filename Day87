@@ -1,0 +1,42 @@
+package Days87;
+
+import java.util.Scanner;
+
+public class Days87 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        System.out.print("Masukkan jumlah elemen array: ");
+        int a = serli.nextInt();
+        int[] b = new int[a];
+
+        System.out.println("Masukkan elemen array:");
+        for (int i = 0; i < a; i++) {
+            System.out.print("Elemen ke-" + (i + 1) + ": ");
+            b[i] = serli.nextInt();
+        }
+        System.out.println("---------------------------------");
+        System.out.println("Elemen pada array sebelum diubah:");
+        for (int i = 0; i < a; i++) {
+            System.out.println("Indeks " + i + ": " + b[i]);
+        }
+        System.out.println("-------------------------------------------");
+        System.out.print("Masukkan indeks elemen yang ingin diubah: ");
+        int c = serli.nextInt();
+
+        if (c >= 0 && c < a) {
+            System.out.print("Masukkan nilai baru untuk indeks " + c + ": ");
+            b[c] = serli.nextInt();
+        } else {
+            System.out.println("Indeks tidak valid!");
+        }
+        System.out.println("---------------------------------");
+        System.out.println("Elemen pada array setelah diubah:");
+        for (int i = 0; i < a; i++) {
+            System.out.println("Indeks " + i + ": " + b[i]);
+
+        }
+        System.out.println("---------------------------------");
+    }
+}
