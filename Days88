@@ -1,0 +1,18 @@
+
+package Days88;
+
+import java.util.Scanner;
+
+public class Days88 {
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        System.out.print("Masukkan kata atau kalimat: ");
+        String A = serli.nextLine();
+
+        String B= A.trim();
+
+        System.out.println("kata atau kalimat setelah trim: '" + B + "'");
+    }
+} 
+   
