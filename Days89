@@ -1,0 +1,49 @@
+package Days89;
+
+import java.util.Scanner;
+
+public class Days89 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+
+        System.out.println("Pilih operasi yang ingin dilakukan:");
+        System.out.println("1. Hitung luas lingkaran");
+        System.out.println("2. Hitung luas jajar genjang");
+        System.out.println("3. Hitung luas trapesium");
+        System.out.print("masukkan pilihan operasi yang ingin dilakukan: ");
+        int pilihan = serli.nextInt();
+
+        if (pilihan == 1) {
+            System.out.print("Masukkan jari-jari lingkaran: ");
+            double jariJari = serli.nextDouble();
+            double luasLingkaran = Math.PI * jariJari * jariJari;
+            System.out.println("Jari-jari: " + jariJari);
+            System.out.println("Luas lingkaran: " + luasLingkaran);
+        } else if (pilihan == 2) {
+            System.out.print("Masukkan panjang alas: ");
+            double alas = serli.nextDouble();
+            System.out.print("Masukkan tinggi: ");
+            double tinggi = serli.nextDouble();
+            double luasJajarGenjang = alas * tinggi;
+            System.out.println("Alas: " + alas);
+            System.out.println("Tinggi: " + tinggi);
+            System.out.println("Luas jajar genjang: " + luasJajarGenjang);
+        } else if (pilihan == 3) {
+            System.out.print("Masukkan sisi atas: ");
+            double sisiAtas = serli.nextDouble();
+            System.out.print("Masukkan sisi bawah: ");
+            double sisiBawah = serli.nextDouble();
+            System.out.print("Masukkan tinggi: ");
+            double tinggi = serli.nextDouble();
+            double luasTrapesium = 0.5 * (sisiAtas + sisiBawah) * tinggi;
+            System.out.println("Sisi atas: " + sisiAtas);
+            System.out.println("Sisi bawah: " + sisiBawah);
+            System.out.println("Tinggi: " + tinggi);
+            System.out.println("Luas trapesium: " + luasTrapesium);
+        } else {
+            System.out.println("Pilihan tidak valid.");
+        }
+
+    }
+}
