@@ -1,0 +1,24 @@
+
+package Days92;
+
+import java.util.Scanner;
+
+public class Days92 {
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+        int a;
+        System.out.print("Masukkan angka: ");
+        a = serli.nextInt();
+
+        for (int b = 1; b <= a; b++) {
+            for (int c = 1; c <= a * 2 - 1; c++) {
+                if (c == b || c == (a * 2 - b)) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
