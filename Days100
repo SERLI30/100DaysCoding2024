@@ -1,0 +1,50 @@
+package Days100;
+
+import java.util.Scanner;
+
+public class Days100 {
+
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+        System.out.print("Masukkan angka: ");
+        int a = serli.nextInt();
+        System.out.print("Masukkan angka: ");
+        int b = serli.nextInt();
+
+        System.out.println("Pilihan operasi");
+        System.out.println("+(Penjumlahan)");
+        System.out.println("*(Perkalian)");
+        System.out.println("-(Pengurangan)");
+        System.out.println("/(Pembagian)");
+        System.out.print("Pilih operasi: ");
+        char c =  serli.next().charAt(0);
+
+        int hasil;
+        switch (c) {
+            case '+':
+                hasil = a + b;
+                System.out.println("Hasil Penjumlahan: " + hasil);
+                break;
+            case '*':
+                hasil = a * b;
+                System.out.println("Hasil Perkalian: " + hasil);
+                break;
+            case '-':
+                hasil = a - b;
+                System.out.println("Hasil Pengurangan: " + hasil);
+                break;
+            case '/':
+                if (b != 0) {
+                    hasil = a / b;
+                    System.out.println("Hasil pembagian: " + hasil);
+                } else {
+                    System.out.println("Error: Pembagian dengan nol tidak diperbolehkan!");
+                }
+                break;
+            default:
+                System.out.println("Pilihan tidak valid!");
+                break;
+
+        }
+    }
+}
